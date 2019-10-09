@@ -1,0 +1,9 @@
+.fighter {
+   float: left;
+}
+
+.jumbotron {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+  }
+
