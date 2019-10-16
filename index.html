@@ -6,40 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Legend of Zelda RPG</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" >
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <script src="https://code.jquery.com/jquery-3.4.1.js"
         integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+
 </head>
 
 <body>
     <div class="jumbotron">
         Legend of Zelda RPG
     </div>
-
-    <div id="characterSelect">
-            <div class="fighter border border-success mx-5"> <img src="assets/images/king.png" id="king" alt="king"></div>
-            <div class="fighter border border-success mx-5"> <img  src="assets/images/link.png" id="link" alt="link"></div>
-            <div class="fighter border border-success mx-5"> <img src="assets/images/tetra.png" id="tetra" alt="tetra"></div>
-            <div class="fighter border border-success mx-5"> <img src="assets/images/ganondorf.png" id="ganondorf" alt="ganondorf"></div>
-       
-        
-        
-        
-    </div>
-    <div id="attacker">
-        <h1>Attacker</h1>
-    </div>
-    <div id="enemies">
-        <h1>Enemies</h1>
-    </div>
-        <div id="defender">
-            <h1>defender</h1>
+    <div class="container">
+        <div id="characterSelect">
+            <h1 class="text-center">Choose Your Fighter!</h1>
+            <div class="fighter border border-success mx-1"> 
+                <img src="assets/images/king.png" id="king" alt="king">
+            </div>
+            <div class="fighter border border-success mx-1"> 
+                <img src="assets/images/link.png" id="link" alt="link">
+            </div>
+            <div class="fighter border border-success mx-1"> 
+                <img src="assets/images/tetra.png" id="tetra" alt="tetra">
+            </div>
+            <div class="fighter border border-success mx-1"> 
+                <img src="assets/images/ganondorf.png" id="ganondorf"
+                    alt="ganondorf">
             </div>
 
-<script src="./assets/game.js"></script>
+
+
+
+        </div>
+        <row>
+            <div class="col-12" id="attacker">
+                <h1>Attacker</h1>
+                <hr>
+            </div>
+        </row>
+        <row>
+            <div class="col-12" id="enemies">
+                <h1>Enemies</h1>
+            </div>
+            <hr>
+        </row>
+        <row>
+            <div id="defender">
+                <h1>Defenders</h1>
+            </div>
+            <hr>
+        </row>
+    </div>
+    <script src="./assets/game.js"></script>
 </body>
 
 </html>
